@@ -8,7 +8,7 @@ function PostItem(props) {
   const formattedDate = new Date(date).toLocaleDateString("en-US", {
     day: "numeric",
     month: "long",
-    year: "numeric",
+    year: "numeric"
   });
 
   const imagePath = `/images/posts/${slug}/${image}`;
